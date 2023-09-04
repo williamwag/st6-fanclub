@@ -121,7 +121,7 @@ a {
 
 .secction3 {
     background-color: #e5e7eb;
-    padding: 100px 0;
+    padding: 100px 10px;
     display: flex;
     justify-content: center;
 }
@@ -142,4 +142,47 @@ a {
     font-size: 24px;
     text-align: right;
     font-weight: 900;
+}
+
+.secction4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10px;
+}
+
+.secction4 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #3882f6;
+    width: 700px;
+    border-radius: 10px;
+    padding: 45px 140px;
+}
+
+.secction4 .title {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.secction4 .text {
+    color: #e5e7eb;
+}
+
+.secction4 .box2 {
+    flex-shrink: 0;
+}
+
+.secction4 button {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding: 8px 30px;
+    border-radius: 8px;
+    cursor: pointer;
 }
