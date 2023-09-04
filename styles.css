@@ -9,12 +9,17 @@
     flex-direction: column;
 }
 
-.header {
+.main {
     background-color: #1f2937;
+    padding: 20px 80px 100px 190px;
+    margin-bottom: 60px;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 200px;
+    margin-bottom: 100px;
 }
 
 .logo {
@@ -33,4 +38,43 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.secction1 {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.secction1 .box1 {
+    margin-right: 50px;
+}
+
+.secction1 .box1 .title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.secction1 .box1 .text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.secction1 .box1 button {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.secction1 .box2 img {
+    width: 500px;
+
 }
