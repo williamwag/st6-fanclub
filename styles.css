@@ -23,6 +23,10 @@
     flex-wrap: wrap;
 }
 
+.left {
+    flex-shrink: 0;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -33,6 +37,7 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 a {
@@ -45,10 +50,13 @@ a {
     background-color: #1f2937;
     display: flex;
     align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .secction1 .box1 {
-    margin-right: 50px;
+    width: 500px;
+    margin-right: auto;
 }
 
 .secction1 .box1 .title {
@@ -75,13 +83,16 @@ a {
     cursor: pointer;
 }
 
-.secction1 .box2 img {
-    width: 500px;
+.secction1 .box2 {
+    width: 400px;
+}
 
+.secction1 .box2 img {
+    width: 100%;
 }
 
 .secction2 {
-    padding: 0 200px 120px 200px; 
+    padding: 0 150px 120px 150px; 
     color: #1f2937;
     text-align: center;
 }
@@ -109,6 +120,7 @@ a {
 .secction2 .model {
 
     width: 200px;
+    margin-bottom: 10px;
 }
 
 .secction2 img {
@@ -119,16 +131,20 @@ a {
     object-fit: cover;
 }
 
+.secction2 .info {
+    font-size: 18px;
+}
+
 .secction3 {
     background-color: #e5e7eb;
     padding: 100px 10px;
     display: flex;
     justify-content: center;
+    padding: 80px 10px;
 }
 
 .secction3 .container {
     width: 900px;
-    padding: 8px;
 }
 
 .secction3 .quote {
@@ -160,6 +176,7 @@ a {
     width: 700px;
     border-radius: 10px;
     padding: 45px 140px;
+    flex-wrap: wrap;
 }
 
 .secction4 .title {
