@@ -119,3 +119,27 @@ a {
     object-fit: cover;
 }
 
+.secction3 {
+    background-color: #e5e7eb;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.secction3 .container {
+    width: 900px;
+    padding: 8px;
+}
+
+.secction3 .quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.secction3 .author {
+    color: #1f2937;
+    font-size: 24px;
+    text-align: right;
+    font-weight: 900;
+}
