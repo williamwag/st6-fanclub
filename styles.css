@@ -186,3 +186,13 @@ a {
     border-radius: 8px;
     cursor: pointer;
 }
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
